@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: aliceblue;
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+}
+
+.counter p {
+  display: flex;
+  justify-content: end;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+.flex .reset,
+.flex .add-minus,
+.flex .percent {
+  color: black;
+}
+
+.flex button {
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 28px;
+  width: 60px;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  height: 60px;
+}
+.flex button:hover {
+  background-color: rgb(80, 80, 80);
+}
+.divide,
+.multiply,
+.minus,
+.plus,
+.equal {
+  background-color: orange;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.null,
+.comma {
+  background-color: gray;
+}
+
+.flex .null {
+  width: 130px;
+  border-radius: 30px;
+}
+.calculator {
+  width: 320px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 100px auto;
+  padding: 20px;
+  height: 500px;
+  background-color: black;
+}
